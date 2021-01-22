@@ -96,7 +96,7 @@ website = div(
                             div(
                                 div(
                                     div(
-                                        p("Engineering Partner at " + a("Blockstack", "https://blockstack.org") + ".<br>Distributed Systems PhD from Princeton (" + a("thesis", "ftp://ftp.cs.princeton.edu/techreports/2018/014.pdf") + ").",
+                                        p("Research Scientist at " + a("Stacks Open Internet Foundation", "https://stacks.org") + ".<br>Distributed Systems PhD, Princeton '18 (" + a("thesis", "ftp://ftp.cs.princeton.edu/techreports/2018/014.pdf") + ", " + a("CV", "cv.pdf") + ").",
                                         align="center", _class="lead"),
                                     _class="col-md-6 col-md-offset-3"),
                                 _class="row"),
@@ -124,9 +124,10 @@ website = div(
                                 li("MA from Princeton in October 2012") +
                                 li("BS from University of Arizona in May 2010")
                             ) +
-                            p("<b>Industry Experience</b>:") +
+                            p("<b>Industry</b>:") +
                             ul(
-                                li("Blockstack (2015-present)") +
+                                li(a("Stacks Open Internet Foundation", "https://stacks.org") + " (2020-present)") +
+                                li(a("Blockstack", "https://stacks.co") + " (2015-2020)") +
                                 li("IBM -- DFSMShsm team (2008-2010)")
                             ),
                         _class="col-md-4") +
@@ -138,6 +139,12 @@ website = div(
                                 li("Ali, M., <b>Nelson, J.</b>, Shea, R., Freedman, M.  " + a("\"Blockstack: Design and Implementation of a Global Naming System with Blockchains.\"", "https://www.usenix.org/system/files/conference/atc16/atc16_paper-ali.pdf") + "  USENIX Annual Technical Conference 2016.  June 22-24, 2016.  Denver, CO, USA.") +
                                 li("<b> Nelson, J.</b>, Ali, M., Shea, R., Freedman, M.  " + a("\"Extending Existing Blockchains with Virtualchain.\"", "https://www.zurich.ibm.com/dccl/papers/nelson_dccl.pdf") + "  Distributed Cryptocurrencies and Consensus Ledgers 2016.  July 25, 2016.  Chicago, IL, USA.") +
                                 li("<b>Nelson, J.</b> and Peterson, L.  " + a("\"Syndicate: Virtual Cloud Storage through Provider Composition.\"", "https://pdfs.semanticscholar.org/4203/f4b5c6554f06ec719ee5b98ba86e4d33ee71.pdf") + "  ACM 1st Internation Workshop on Software-defined Ecosystems.  June 25, 2014.  Vancouver, British Columbia, Canada."),
+                            ) +
+                            p("A few patents I helped write:") +
+                            ul(
+                                li("<b>Nelson, J.,</b>, Blankstein, A., Salibra, L., Liao, K., Little., M.  " + a("\"Platform and associated method for authenticating the identity of a user in a decentralized system without need for a third-party identity service\"", "http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10,601,829.PN.&OS=PN/10,601,829&RS=PN/10,601,829")) +
+                                li("<b>Nelson, J.,</b>"  + a("\"Systems and methods for forming application-specific blockchains\"", "http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10,698,728.PN.&OS=PN/10,698,728&RS=PN/10,698,728")) +
+                                li("Blankstein, A., <b>Nelson, J.</b>" + a("\"System and method for smart contract publishing\"", "http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10,699,269.PN.&OS=PN/10,699,269&RS=PN/10,699,269")),
                             ),
                         _class="col-md-4") +
                         div(
@@ -145,8 +152,8 @@ website = div(
                             "<br>" +
                             p("Some repositories I work on:") +
                             ul(
-                                li(a("Blockstack Core", "https://github.com/blockstack/blockstack-core") + ":  The reference implementation of the " + a("Blockstack Naming Service", "https://docs.blockstack.org/core/naming/introduction.html") + " and " + a("peer network.", "https://docs.blockstack.org/core/atlas/overview.html")) +
-                                li(a("Blockstack CLI", "https://github.com/blockstack/cli-blockstack") + ":  A command-line interface to Blockstack Core and related services.") +
+                                li(a("Stacks 2.0", "https://github.com/blockstack/stacks-blockchain") + ":  The reference implementation of the " + a("Stacks Blockchain", "https://stacks.co")) +
+                                li(a("SIPs", "https://github.com/stacksgov/sips") + ": I am the Chair of the Technical Steering Committee of the Stacks Improvement Proposal process") +
                                 li(a("Gaia", "https://github.com/blockstack/gaia") + ": A high-performance decentralized storage system used by Blockstack dapps.")
                             ) +
                             p("Some personal projects:") +
